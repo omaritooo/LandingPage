@@ -1,9 +1,10 @@
 *
 {
+    overflow:-moz-hidden-unscrollable;
 }
 .navbar-brand 
-{  display: flex;
-   
+{  
+   width: 80%;
 }
 
 .center {
@@ -16,19 +17,21 @@
 
   .container
   {
-      margin-top: 4rem;
-      margin-bottom: 4rem;
-      width: 60%;
-      height: 60%;
-      padding-left: 5rem;
+     
+  } 
+  .container-fluid
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #E572B3;
+  }
 
-      background-color: white;
-      border-radius: 5px 5px 5px 5px;
-      -moz-border-radius: 5px 5px 5px 5px;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border: 0px none #000000;
-
-    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.33);
-    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.33);
-    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.33);
+  .collapse
+  {
+    
+  }
+  .page img
+  {
+      display: none;
   }
